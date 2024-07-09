@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="formMainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addTaskFormController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="72.0" prefWidth="700.0" style="-fx-background-color: #424242;">
+         <children>
+            <Label alignment="CENTER" layoutX="319.0" layoutY="18.0" text="ToDo" textFill="#faf6f6">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="addSuccessLabel" layoutX="478.0" layoutY="44.0" prefHeight="18.0" prefWidth="208.0" text="Task added successfully, add more!" textFill="#75f23b" visible="false" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="taskNameText" layoutX="224.0" layoutY="156.0" prefHeight="26.0" prefWidth="251.0" />
+      <TextField fx:id="taskDescriptionText" layoutX="223.0" layoutY="208.0" prefHeight="26.0" prefWidth="251.0" />
+      <Label layoutX="153.0" layoutY="161.0" text="Task Name" />
+      <Label layoutX="124.0" layoutY="212.0" text="Task Description" />
+      <Button fx:id="saveTaskButton" layoutX="323.0" layoutY="272.0" mnemonicParsing="false" style="-fx-background-color: #424242;" text="Save Task" textFill="#fcfafa" />
+      <Button fx:id="viewUserTasksButton" layoutX="521.0" layoutY="344.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #424242;" text="View Tasks(0)" textFill="WHITE" visible="false" />
+   </children>
+</AnchorPane>

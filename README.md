@@ -1,0 +1,2 @@
+# ToDoApp
+ This is a detailed JavaFX application, designed for tracking personal tasks. The core functionalities are setting a username and password for a particular user, one can add as many users as needed. Each user will have to login to the app and proceed with creating and tracking user tasks . The app is based on SQL database so  as part of setting up one needs to setup a database first and add the database information in the dbHandler class  and you are ready to roll  
